@@ -4,8 +4,8 @@ import { tasks } from "../store.js";
 export function registerTaskResources(server) {
 
   server.resource(
-    "tasks://all",
     "All tasks",
+    "tasks://all",
     async (uri) => ({
       contents: [{
         uri: uri.href,
@@ -16,8 +16,8 @@ export function registerTaskResources(server) {
   );
 
   server.resource(
-    "tasks://pending",
     "Pending (not done) tasks",
+    "tasks://pending",
     async (uri) => ({
       contents: [{
         uri: uri.href,
