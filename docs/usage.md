@@ -7,13 +7,12 @@ Create:
 mcp.json
 
 {
-  "mcpServers": {
-    "cognito": {
-      "url": "https://your-mcp.vercel.app/api/mcp"
+    "mcpServers": {
+        "tasks": {
+            "serverUrl": "https://tasks-mcp.onrender.com/mcp",
+            "headers": {
+                "x-api-key": "[ENCRYPTION_KEY]"
+            }
+        }
     }
-  }
 }
-
-Now you can run:
-
-auth:configure
