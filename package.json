@@ -1,0 +1,30 @@
+{
+  "name": "mcp-learning",
+  "version": "1.0.0",
+  "description": "MCP Sample Project Guide",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goblin-C/mcp-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/goblin-C/mcp-learning/issues"
+  },
+  "homepage": "https://github.com/goblin-C/mcp-learning#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "dotenv": "^17.3.1",
+    "zod": "^4.3.6"
+  }
+}
